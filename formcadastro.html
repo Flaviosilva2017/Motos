@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+
+		<title>
+			Form Cadastro
+		</title>
+
+		<meta charset="utf-8">
+
+	</head>
+
+	
+	<!--Corpo Site -->
+	<body>
+
+		<!--Carregar logo empresa-->
+		<center>
+
+			<img src="img/logo.png" alt="imagem não localizada" width="200" height="150">
+
+		</center>
+
+		<h3>Cadastro Cliente</h3>
+		<hr> <!--Inserindo linha horizontal-->
+
+
+			<!--Criando formulário de cadastro de cliente-->
+		<form>
+
+				Login: <br>
+				<input type="text" name="login">
+				<br>
+
+				Senha: <br>
+				<input type="password" name="senha">
+				<br>
+
+				Sexo: <br>
+				<input type="radio" name="sexo" value="M"> Masculino  <!--Preencher o NAME de cada input bloqueia  preechimento dos dois  Radios-->
+
+				<br>
+
+				<input type="radio" name="sexo" value="F"> Feminino <!--Value usado para reconhecer o valor escolhido pelo usuário, mas só pode ser realizado via linguagem de programação-->
+
+				<br>
+
+				<br>
+				<hr><!--Inserindo uma linha horizontal-->
+				Interesse: <br> <!--Formulário usando checkbox-->
+				<input type="checkbox" name="Interesses"> Futebol
+				<br>
+				<input type="checkbox" name="Interesses"> Bebidas
+				<br>
+				<input type="checkbox" name="Interesses"> Cursos
+				<br>
+				<input type="checkbox" name="Interesses"> Livros
+
+				<br>
+
+				<!--Formulário como lista e opção de escolha pelo usuário / Tipo de input Select-->
+				<hr><!--Inserindo uma linha horizontal-->
+				Estado: <br>
+				<select name="estado"> <!--tipo de input select -->
+					<!--Preenchimneto o name na tag Select e da tag Value possibilita recuperação da informação que o usuário preencheu -->
+
+					<option value="al">AL</option> <!-- A tag option deve ser preenchido com a opção que o usuário deve escolher-->
+					<option value="sp">SP</option>
+					<option value="pr">PR</option>
+					<option value="sc">SC</option>
+					<option value="rs">RS</option>
+					<option value="pi">PI</option>
+
+
+				</select>
+
+
+				<br>
+
+				<br>
+
+				<hr><!--Inserindo uma linha horizontal-->
+				Observações: <br>
+				 <!-- A tag textarea permite digitar uma texto maior, que no caso é ideal para mencionar alguma observações-->
+				<textarea>
+					
+
+				</textarea>
+
+				<br>
+				<!--Atributo submit envia as informações para o banco de dados -->
+
+				<input type="submit" value="Cadastrar"> <!--Enviar dados para a base de dados -->
+
+
+		</form> <!--Fechamento cabeçalho-->
+
+		<br>
+
+		<hr><!--inserindo linha horizontal -->
+
+		<br>
+		S
+		<center>
+
+		<h4> Feito by happen </h4>
+
+		</center>
+
+
+
+	</body>
+</html>
